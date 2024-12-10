@@ -1,0 +1,182 @@
+body {
+    font-family: Cabin, serif;
+    font-size: 36px;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.slide {
+    display: none;
+    height: 100vh;
+    width: 96vw;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.current {
+    display: flex;
+}
+
+.text,.titlepage,.thankyoupage {
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: left;
+}
+
+.titlepage>*,.text>*,.thankyoupage>* {
+    margin-left: 10%;
+}
+
+.date {
+    margin-bottom: 3em;
+}
+
+.author,.occasion,.contact,.date,.institution {
+    font-family: Cabin, serif;
+    line-height: 1.5;
+}
+
+.title {
+    margin-bottom: 3em;
+    max-width: 10em;
+    line-height: 1.2;
+}
+
+h1,h2,h3 {
+    font-family: Cabin, serif;
+    color: #D2D2D2;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 1.5em;
+}
+
+h2 {
+    font-size: 1.7em;
+    margin-bottom: 1.7em;
+}
+
+h3 {
+    font-size: 1.3em;
+    margin-bottom: 1.3em;
+}
+
+h4 {
+    font-size: 1.1em;
+    margin-bottom: 1.1em;
+}
+
+li {
+    font-family: Cabin, serif;
+    list-style-type: disc;
+    font-size: 1em;
+    line-height: 140%;
+    max-width: 30em;
+}
+
+.increment {
+    visibility: hidden;
+}
+
+.incremented {
+    visibility: visible;
+}
+
+img {
+   max-height: 80vh; 
+   width: auto;
+}
+
+.single,.double {
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.triple {
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.double > img {
+    width: 30vw;
+    height: auto;
+}
+
+.triple > img {
+    height: 20vh;
+    width: auto;
+}
+
+.wide,.tall {
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.wide > img {
+    width: 90vw;
+    height: auto;
+}
+
+.tall > img {
+    height: 80vh;
+    width: auto;
+}
+
+video {
+  height: 80vh;
+  width: auto;
+}
+
+.space-holder {
+    visibility: hidden;
+}
+
+a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+table, td, th {
+    border: 1px solid #DCDCDC;
+    border-collapse: collapse;
+}
+
+td,th { padding: 0.5em }
+
+.largeTable td,th {
+    border: 1px solid #DCDCDC;
+    font-size: .6em;
+    padding: 3px 2px;
+    text-align: center;
+}
+
+th { font-weight: bold; }
+
+.wideTable {
+    flex-flow: column;
+    align-items: center;
+    width: auto;
+}
+
+.wideTable > h3 {
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+p {
+    font-family: Cabin, serif;
+    max-width: 38em;
+}
+
+i {
+    font-style: italic;
+}
+
+iframe {
+    height: 90vh;
+    width: 50vw;
+}

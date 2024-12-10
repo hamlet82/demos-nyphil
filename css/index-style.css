@@ -1,0 +1,47 @@
+body {
+    font-family: Cabin, serif;
+    font-size: 20px;
+    color: #000000;
+    background-color: #000000;
+    margin-top: 3%;
+    margin-left: 5%;
+    max-width: 40em;
+}
+
+h1,h2,h3 {
+    font-family: Cabin, serif;
+    color: #D2D2D2;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 1.5em;
+}
+
+h2 {
+    font-size: 1.75em;
+    margin-bottom: 1.75em;
+}
+
+ul > li { list-style-type: disc; }
+
+ol > li { list-style-type: decimal; }
+
+li {
+    font-size: 1em;
+    margin-bottom: 1.5em;
+}
+
+p { margin-bottom: 1em; }
+
+i { font-style: italic; }
+
+a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+hr {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}

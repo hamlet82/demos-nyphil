@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Cabin";
+    src: url("fonts/Cabin-Regular.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: "Cabin";
+    src: url("fonts/Cabin-Italic.ttf") format('ttf');
+    font-style: "italic";
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("fonts/OpenSans-Regular.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("fonts/OpenSans-Italic.ttf") format('ttf');
+    font-style: "italic";
+}
